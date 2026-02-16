@@ -38,7 +38,7 @@ body {
 a {
     color: hsl(188, 86%, 86%);
     text-shadow: -1px 2px 11px #0502a7;
-    text-align: center;
+    text-align: left;
     font-size: 3vw;
     text-decoration: none;
 }
@@ -162,6 +162,7 @@ nav {
 
 a {
     font-size: 18px; /* au lieu de 3vw */
+    text-align: left;
 }
 
 /*mon cadre*/
@@ -192,6 +193,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 
