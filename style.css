@@ -25,7 +25,7 @@ body {
     font-family: 'Trebuchet MS';
     min-height: 300vh;
     color: rgba(25, 170, 214, 0.829);
-    font-size: 2vw;
+    font-size: 16px;
     margin: 0;
     padding: 0 12vh; /*desktop*/
     -webkit-text-stroke-width: 1.5px;
@@ -178,6 +178,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 
