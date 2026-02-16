@@ -27,7 +27,7 @@ body {
     min-height: 300vh;
     color: rgba(25, 170, 214, 0.829);
     font-size: 0.5rem;
-    margin: 6rem;
+    margin: 3rem;
     padding: 0 12vh; /*desktop*/
     position: relative;
     font-weight: bold;
@@ -180,6 +180,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 
