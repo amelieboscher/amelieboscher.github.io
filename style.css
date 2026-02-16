@@ -144,6 +144,10 @@ main {
 
 @media (max-width: 768px) {
 
+.logo {
+    font-size: 20px;
+  }
+    
 body {
     padding: 0 16px; /* au lieu des 12vh*/
     font-size: 16px; /* 2vw peut être trop petit/grand sur mobile*/
@@ -186,6 +190,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 
