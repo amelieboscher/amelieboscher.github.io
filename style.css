@@ -151,7 +151,7 @@ a {
 }
 
 /*mon cadre*/
-main, box1, box2 {
+main, .box1, .box2 {
     width: 100%;
     margin: 0 auto;
 }
@@ -169,6 +169,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 
