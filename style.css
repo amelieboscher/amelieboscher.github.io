@@ -157,6 +157,14 @@ main, .box1, .box2 {
     margin: 0 auto;
 }
 
+.flexbox1 {
+    margin: 0;
+}
+
+.slideUp {
+    margin-left: 0;
+}
+    
 h1 {
     font-size: 2rem;
 }
@@ -170,6 +178,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 
