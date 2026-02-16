@@ -51,9 +51,12 @@ a {
 }
 
 .logo {
+    display: inline-block;
+    font-size: clamp(18px, 4.5vw, 28px); /* min / responsive / max */
+    line-height: 1.05;
     text-decoration: none;
-    font-size: 3rem;
 }
+
 
 /* Ne marche pas sur mobile,
 .flexbox1 {
@@ -183,6 +186,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 
