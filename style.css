@@ -110,7 +110,8 @@ main {
     /*OPTIONNEL: un peu d'espace*/
     padding: 8px 0;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    margin: center;
 }
 
 .marquee__track {
@@ -194,6 +195,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 
