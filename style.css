@@ -100,7 +100,7 @@ main {
 }
 
 .marquee {
-    width: 100%;
+    width: 80%;
     overflow: hidden;
     white-space: nowrap;
     /*OPTIONNEL: un peu d'espace*/
@@ -183,6 +183,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 
