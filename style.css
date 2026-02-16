@@ -174,7 +174,7 @@ a {
 
 /*mon cadre*/
 main, .box1, .box2 {
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
     justify-content: center;
@@ -201,6 +201,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 
