@@ -12,6 +12,7 @@ nav {
     text-align: right;
 }
 
+
 body::before {
     content: "";
     position: fixed;
@@ -25,8 +26,8 @@ body {
     font-family: 'Trebuchet MS';
     min-height: 300vh;
     color: rgba(25, 170, 214, 0.829);
-    font-size: 1rem;
-    margin: 0;
+    font-size: 0.5rem;
+    margin: 6rem;
     padding: 0 12vh; /*desktop*/
     position: relative;
     font-weight: bold;
@@ -51,6 +52,7 @@ a {
 
 .logo {
     text-decoration: none;
+    font-size: 3rem;
 }
 
 /* Ne marche pas sur mobile,
@@ -66,7 +68,7 @@ h1 {
     text-align: center;
     color: rgb(0, 0, 0);
     text-shadow: 2px 5px 1px rgb(8, 75, 219);
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: 4rem;
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
 }
@@ -74,7 +76,7 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    font-size: 4vw;
     
 }
 
@@ -178,8 +180,6 @@ h2 {
     font-size: 1.2rem;
 }
 }
-
-
 
 
 
