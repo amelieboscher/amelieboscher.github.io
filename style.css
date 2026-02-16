@@ -124,7 +124,7 @@ main {
     gap: 14px;
     will-change: transform;
     animation: marquee 12s linear infinite;
-    justify-content: center;
+    justify-content: right;
 }
 
 .marquee__item {
@@ -201,6 +201,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 
