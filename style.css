@@ -25,11 +25,9 @@ body {
     font-family: 'Trebuchet MS';
     min-height: 300vh;
     color: rgba(25, 170, 214, 0.829);
-    font-size: 16px;
+    font-size: 1rem;
     margin: 0;
     padding: 0 12vh; /*desktop*/
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: black;
     position: relative;
     font-weight: bold;
     /* VH = 100% de la taille de l'écran (viwport height) */
@@ -69,6 +67,8 @@ h1 {
     color: rgb(0, 0, 0);
     text-shadow: 2px 5px 1px rgb(8, 75, 219);
     font-size: 2.5rem;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
 }
 
 
@@ -178,6 +178,7 @@ h2 {
     font-size: 1.2rem;
 }
 }
+
 
 
 
