@@ -26,8 +26,8 @@ body {
     min-height: 300vh;
     color: rgba(25, 170, 214, 0.829);
     font-size: 2vw;
-    margin-left: 12vh;
-    margin-right: 12vh;
+    margin: 0;
+    padding: 0 12vh; /*desktop*/
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: black;
     position: relative;
@@ -84,11 +84,15 @@ main {
     box-shadow: inset 11px -8px 11px 1px rgb(187, 255, 255);
 }
 
-div {
+/*div {
     text-align: justify;
     margin-left: 12vh;
     margin-right: 12vh;
     
+}*/
+
+.text {
+    text-align: justify;
 }
 
 .marquee {
@@ -131,13 +135,24 @@ div {
 
 @media (max-width: 768px) {
 
-.box2 {
-    width: min(90%, 500px);
-    margin: 0 auto;
+body {
+    padding: 0 16px; /* au lieu des 12vh*/
+    font-size: 16px; /* 2vw peut être trop petit/grand sur mobile*/
 }
-    
-.box1 {
-    width: 90%;
+
+nav {
+    text-align: center;
+    margin: 12px 0;
+}
+
+a {
+    font-size: 18px; /* au lieu de 3vw */
+}
+
+/*mon cadre*/
+main, box1, box2 {
+    width: 100%;
+    margin: 0 auto;
 }
 
 h1 {
@@ -145,14 +160,14 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5rem;
-    text-align: center;
+    font-size: 1.6rem;
+    
 }
 
 .marquee__item {
     font-size: 1.2rem;
 }
-
+}
 
 
 
