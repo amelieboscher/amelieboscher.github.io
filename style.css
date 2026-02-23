@@ -67,7 +67,7 @@ a {
 
 /* Ne marche pas sur mobile,
 .flexbox1 {
-    margin-left: 12vh;
+    margin-left: 0vh;
     margin-right: 12vh;
 }*/
 
@@ -220,4 +220,5 @@ img {
     width: 20%;
     height: 20%;
 }
+
 
